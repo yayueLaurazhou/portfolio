@@ -1,0 +1,32 @@
+{"pages": 
+    {
+        "home": {
+            "hero": {
+                "title": "Elias is a <span>web designer</span> and <span>front-end</span> developer",
+                "description": "He crafts responsive websites where technologies meet creativity",
+                "button": "Contact ME",
+            },
+            "projects": {
+                "title": "projects",
+                "button": "View all"
+            },
+            "skills": {
+                "title": "skills"
+            },
+            "about": {
+                "title": "about",
+                "description": [
+                    "I’m a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. ",
+                    "Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks."
+                ],
+                "button": "View all"
+            },
+            "contacts": {
+                "title": "contacts",
+                "text": "",
+                "media": "Message me here",
+                "donate": "Donate me here"
+            }
+        }
+    }
+}
