@@ -1,18 +1,20 @@
-import Hero from "../blocks/home/Hero.js";
-import Projects from "../blocks/home/Projects.js";
-import Skills from "../blocks/home/Skills.js";
-import About from "../blocks/home/About.js";
-import Contacts from "../blocks/home/Contacts.js";
-
-import "styles/pages/home.sass"
+import Hero from "../blocks/Hero.js";
+import Projects from "../blocks/Projects.js";
+import Skills from "../blocks/Skills.js";
+import About from "../blocks/About.js";
+import Contact from "../blocks/Contact.js";
+import data from "../../public/data/data.js";
+import projects from "../../public/data/projects.js";
+import skills from "../../public/data/skills.js";
+import "../../public/styles/views/home.sass"
 
 
 export default () => {
     return /*html*/`
-        ${Hero}
-        ${Projects(t.projects)}
-        ${Skills(t.skills, locale.skills)}
-        ${About(t.about)}
-        ${Contacts}
+        ${Hero(data.hero)}
+        ${Projects(projects)}
+        ${Skills(skills)}
+        ${About(data.about)}
+        ${Contact()}
     `;
 };

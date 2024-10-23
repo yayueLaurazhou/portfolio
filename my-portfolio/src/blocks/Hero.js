@@ -1,19 +1,21 @@
-import Navbar from "./Navbar.js";
+import Navbar from "../components/Navbar.js";
 
-export default () => {
+export default function (data) {
     return /*html*/`
+        <header>
+            ${Navbar()}
+        </header>
         <section class="hero">
-            <header>
-                ${Navbar()}
-            </header>
             <div class="hero-text">
-                <h1>Hello, I'm Laura Zhou</h1>
-                <h2>Product<br>Designer</h2>
-                <p>based in London.</p>
-                <button class="resume-btn">Contact me</button>
+                <p>Hi! I am </p>
+                <h1>${data.name}</h1>
+                <h2>${data.interests}</h2>
+                <p>${data.location}</p>
+                <button class="resume-btn">${data.button}</button>
+                <button class="contact-btn">Contact me</button>
             </div>
             <div class="hero-image">
-                <img src="https://v0.dev/placeholder.svg?height=300&width=300" alt="Yayue Zhou">
+                <img src="images/hero.png" alt="Yayue Zhou">
             </div>
         </section>
     `;
