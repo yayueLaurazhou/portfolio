@@ -11,11 +11,11 @@ export default function (data) {
                 <h1>${data.name}</h1>
                 <h2>${data.interests}</h2>
                 <p>${data.location}</p>
-                <button class="resume-btn">${data.button}</button>
-                <button class="contact-btn">Contact me</button>
+                <button class="btn">Resume</button>
             </div>
             <div class="hero-image">
-                <img src="images/hero.png" alt="Yayue Zhou">
+                <img src="img/Hero.png" alt="Yayue Zhou">
+                <div class="deco-lines"><span></span><span></span><span></span><span></span></div>
             </div>
         </section>
     `;

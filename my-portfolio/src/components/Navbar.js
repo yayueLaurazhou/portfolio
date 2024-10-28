@@ -28,7 +28,6 @@ export default function Navbar() {
             <a href="#About">Skills</a>
             <a href="#">About</a>
             <a href="#section4">Contact</a>
-            </ul>
         </nav>
     `;
 }

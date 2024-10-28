@@ -1,6 +1,7 @@
 export default function (data) {
     return /*html*/`
-        <section class="skills">
+        <section>
+            <h2 class="h2">Skills</h2>
             <div class="skills-container">
                 ${data.map(skill => /*html*/`
                     <div class="skill-card">

@@ -1,9 +1,9 @@
 const projects = [
     {
         id: "CareGrade",
-        description: "Reviews Website for Mental Health Resources, Populated SQL data base scraped Online and Google Maps API",
-        links: "Deplos/deplos.github.io",
-        techs: ["Python ", "Goolge API", "SQL", "HTML", "CSS", "Flask", "Jinja Template"],
+        description: "Reviews Website for Mental Health Resources, Populated SQL data base scraped Online and Google Maps API. Used Flask for backend, Jinja Template and Bootstrap for frontend, User can delete, add, search and edit reviews.",
+        links: "https://github.com/yayueLaurazhou/mental_health_resources_review_website",
+        techs: ["Python ", "Goolge API", "SQL", "HTML", "CSS", "Flask", "Jinja Template", "Bootstrap"],
         isSmall: false
     },
     {
@@ -15,7 +15,7 @@ const projects = [
     },
     {
         id: "The Little Prince Diary",
-        description: "An interactive website that is the little prince themed, user can add/search/filter/delete notes, add/delete tags/folders as categorization systems.",
+        description: "An interactive website that is the little prince themed, user can add/search/filter/delete notes, add/delete tags/folders as categorization systems.Used Reducer for state management, Custom Hooks, Container Components and useContext to seperate concerns, localStorage for notes storage, and TypeScript for styling.",
         links: "https://github.com/yayueLaurazhou/theLittlePrinceJournal/",
         techs: ["react"],
         hasImage: true,
@@ -45,14 +45,14 @@ const projects = [
         description: "A project that uses Twilio API and weather API to send messsages to flatmates once a week",
         links: "https://github.com/yayueLaurazhou/cleaning_rota",
         techs: ["Python"],
-        isSmall: false,
+        isSmall: true,
     },
     {
         id: "NLP analysis",
         description: "NLP analysis on the text of the little prince",
         links: "https://github.com/yayueLaurazhou/NLP_project",
         techs: ["NLP", "Python", "NLTK", "spaCy", "Scikit-learn", "Pandas", "Numpy"],
-        isSmall: false,
+        isSmall: true,
     },
 
     {
