@@ -15,6 +15,6 @@ export default () => {
         ${Projects(projects)}
         ${Skills(skills)}
         ${About(data.about)}
-        ${Contact()}
+        ${Contact(data.contacts)}
     `;
 };

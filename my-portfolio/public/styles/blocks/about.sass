@@ -1,9 +1,38 @@
 .about
+  margin: 40px 10px
+  
+.about
+  p 
+    a
+      color: inherit
+      text-decoration: none
+    span
+      position: relative
+      &:hover
+        cursor: pointer
+        font-size: 1.3rem
+        &::after
+        height: 15px
+      &::after
+        content: ''
+        position: absolute
+        left: 0
+        bottom: 0
+        height: 12px 
+        width: 100%
+        background-color: rgba(230, 243, 255, 0.75)
+        z-index: -1 
+        transition: all 0.3s ease 
+
+
+  
   &__text
-    font-size: 1.125rem
+    font-size: 1.2rem
     line-height: 1.625
     margin-bottom: 1rem
-    
+    text-align: justify
+
+
     &::first-letter
       float: left
       font-size: 4rem
@@ -13,7 +42,3 @@
       margin-right: 0.75rem
       margin-top: 0.25rem
       padding-top: 0.25rem
-
-
-
-  
