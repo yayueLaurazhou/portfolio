@@ -1,13 +1,14 @@
 export default function (project) {
     return /*html*/`
         ${project.isSmall ? `
-            <div class="small-project">
-                <h3>${project.id}</h3>
-                <p>${project.description}</p>
-                <a href="${project.link}"> Learn More</a>
+            <div>
+                <div class="small-project">
+                    <h3>${project.id}</h3>
+                    <p>${project.description}</p>
+                    <a href="${project.link}"> Learn More</a>
+                </div>
             </div>
         ` : `
-            
             <div class="project">
             <div class="border-left"></div>
             <div class="border-right"></div>
