@@ -6,7 +6,7 @@ import Contact from "../blocks/Contact.js";
 import data from "../../public/data/data.js";
 import projects from "../../public/data/projects.js";
 import skills from "../../public/data/skills.js";
-import "../../public/styles/views/home.sass"
+import "../../public/styles/views/Home.sass"
 
 
 export default () => {
