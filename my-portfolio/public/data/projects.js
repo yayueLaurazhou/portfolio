@@ -1,21 +1,21 @@
 const projects = [
     {
         id: "CareGrade",
-        description: "Reviews Website for Mental Health Resources, Populated SQL data base scraped Online and Google Maps API. Used Flask for backend, Jinja Template and Bootstrap for frontend, User can delete, add, search and edit reviews.",
+        description: "Reviews Website for Mental Health Resources, Populated SQL data base scraped Online and Google Maps API. Used Flask for backend, Jinja Template and Bootstrap for frontend, User can delete, add, search and edit reviews. Pytest for database and routing",
         links: "https://github.com/yayueLaurazhou/mental_health_resources_review_website",
-        techs: ["Python ", "Goolge API", "SQL", "HTML", "CSS", "Flask", "Jinja Template", "Bootstrap"],
+        techs: ["Python", "Goolge API", "SQL", "HTML", "CSS", "Flask", "Jinja Template", "Bootstrap"],
         isSmall: false
     },
     {
         id: "The Diagonal Alley Bargains",
-        description: "A dynamic website that allows user to login, logout, signup,add/delete items in cart, calculate total price. After login, User can post/delete/edit an item for sale. User can contact seller for an item interested, in a chat room that updates real time without refreshing the page.",
+        description: "A dynamic website that allows user to login, logout, signup,add/delete items in cart, calculate total price. After login, User can post/delete/edit an item for sale. User can contact seller for an item interested, in a chat room that updates real time without refreshing the page. Implemented unit tests and integration tests using Django's build in TestCase and Client, E2E testing with Playwright.",
         links: "https://github.com/yayueLaurazhou/django_secondhand_ecommerce",
-        techs: ["Django", "Jinja", "HTML", "CSS", "JavaScript", "SQL"],
+        techs: ["Django", "Jinja", "HTML", "CSS", "JavaScript", "SQL", "Playwright"],
         isSmall: false
     },
     {
         id: "The Little Prince Diary",
-        description: "An interactive website that is the little prince themed, user can add/search/filter/delete notes, add/delete tags/folders as categorization systems.Used Reducer for state management, Custom Hooks, Container Components and useContext to seperate concerns, localStorage for notes storage, and TypeScript for styling.",
+        description: "An interactive website that is the little prince themed, user can add/search/filter/delete notes, add/delete tags/folders as categorization systems.Used Reducer for state management, Custom Hooks, Container Components and useContext to seperate concerns, localStorage for notes storage, and TypeScript for styling. Tested using Vitest for React components and Playwright for End to End testing.",
         links: "https://github.com/yayueLaurazhou/theLittlePrinceJournal/",
         techs: ["React"],
         hasImage: true,
@@ -37,7 +37,7 @@ const projects = [
     {
         id: "Java DataStructure",
         description: "Following the CS61B, I learnt using Java to design various data structure--lists, arrays, sets, trees, hash maps, graphs---and sorting algorithms. Developed a Tetris game as homework.",
-        links: "https://github.com/yayueLaurazhou/java_datastructure",
+        links: "https://github.com/yayueLaurazhou/CS61B-2024",
         isSmall: true,
     },
     {
@@ -56,11 +56,13 @@ const projects = [
     {
         id: "London Renting",
         description: "Using Selenium to scrape the data of renting listings on various platforms such as Rightmove and combine them into a pdf",
+        links: "https://github.com/yayueLaurazhou/london_renting_web_scrape",
         isSmall: true,
     },
     {
         id: "Boston Housing Price Prediction",
         description: "A Kaggle project that predicts the housing price of houses in Boston using Random Forest Regression using Python Numpy and Pandas",
+        links: "https://www.kaggle.com/code/alyssachong/team-notebook-final",
         isSmall: true,
     }
 ];
